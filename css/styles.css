@@ -121,11 +121,13 @@ button {
   line-height: 1.5;
   padding-top: 24px;
   padding-bottom: 24px;
+  position: relative;
 }
 
 .header-nav__link:hover,
 .header-nav__link:focus {
   color: var(--color-ocean);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .header-nav__link.current {
@@ -329,7 +331,7 @@ button {
 
 .team__list-icons {
   display: flex;
-  align-items: center;
+  align-items: center; 
   justify-content: center;
   gap: 24px;
 }
